@@ -269,18 +269,26 @@
             margin-right: 0.5rem;
         }
 
-        /* Getting Started */
-        .code-block {
-            background: var(--dark);
-            color: #E5E7EB;
-            padding: 1.5rem;
-            border-radius: 8px;
-            overflow-x: auto;
-            margin: 1rem 0;
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
         }
 
-        .code-block code {
-            font-family: 'Courier New', monospace;
+        .cta-section h2 {
+            color: white;
+            margin-bottom: 1rem;
+        }
+
+        .cta-section p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         /* Footer */
@@ -370,7 +378,7 @@
         <h1>Smart Bookkeeping for Freelancers</h1>
         <p>Automated expense tracking, tax preparation, and financial insights—all in one iOS app.</p>
         <div class="cta-buttons">
-            <a href="#getting-started" class="btn btn-primary">Get Started</a>
+            <a href="#features" class="btn btn-primary">Learn More</a>
             <a href="https://github.com/hellofinchandpoppy/flowledger" class="btn btn-secondary" target="_blank">
                 <i class="fab fa-github"></i> View on GitHub
             </a>
@@ -475,20 +483,37 @@
         </div>
     </section>
 
+    <!-- Call to Action Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Coming Soon to the App Store</h2>
+            <p>
+                Be the first to know when FlowLedger launches. Smart bookkeeping for freelancers is almost here.
+            </p>
+            <a href="mailto:hello@finchandpoppy.com?subject=FlowLedger%20Early%20Access" class="btn btn-primary">
+                <i class="fas fa-envelope"></i> Join the Waitlist
+            </a>
+            <div style="margin-top: 2rem;">
+                <a href="https://github.com/hellofinchandpoppy/flowledger" class="btn btn-secondary" target="_blank">
+                    <i class="fab fa-github"></i> Follow Development
+                </a>
+            </div>
+        </div>
+    </section>
+
     <!-- Footer -->
     <footer>
         <div class="footer-links">
             <a href="https://github.com/hellofinchandpoppy/flowledger">GitHub</a>
-            <a href="https://github.com/hellofinchandpoppy/flowledger/blob/main/docs/API.md">API Docs</a>
             <a href="https://github.com/hellofinchandpoppy/flowledger/blob/main/CONTRIBUTING.md">Contributing</a>
             <a href="https://github.com/hellofinchandpoppy/flowledger/issues">Issues</a>
-            <a href="mailto:hellofinch.poppy@gmail.com">Contact</a>
+            <a href="mailto:hello@finchandpoppy.com">Contact</a>
         </div>
         
         <div class="social-links">
-            <a href="https://github.com/hellofinchandpoppy/flowledger" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="https://twitter.com/flowledger" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="https://linkedin.com/company/flowledger" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/hellofinchandpoppy/flowledger" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://twitter.com/flowledger" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://linkedin.com/company/flowledger" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
         </div>
 
         <p style="margin-top: 2rem; opacity: 0.7;">&copy; 2024 FlowLedger. MIT License.</p>
